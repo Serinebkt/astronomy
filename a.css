@@ -1,0 +1,324 @@
+body{
+    background-color:black;
+    background-size: 80%;
+    background-image: url(swift_M31_mosaic_1600.webp);
+    background-position: center top 70%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color:white;
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+    border: 1px solid #ccc;
+    padding: 10px;
+    height:auto;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .section {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+h1{
+    font-size: 80px;
+    margin-top: 5px;
+    color:antiquewhite;
+    font-style: oblique;
+    text-shadow: 5 5 5px black;
+    text-decoration: underline;
+}
+nav u1 {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    
+}
+nav u1 li {
+    display: inline;
+    margin-left: 20px;
+}
+nav u1 li a{
+    color: white;
+    text-decoration: none;
+}
+.introduction {
+padding:52px;
+position:absolute;
+top:120px;
+left:20px ;
+transform:translateX(-50);
+max-width: 600px;
+width:100%;
+font-size: 20px;
+color:azure;
+font-style:italic;
+text-transform: capitalize;
+margin-bottom: 70px;
+}
+
+.topic-container {
+    display: flex; 
+    direction:column; 
+    align-items: center; 
+    margin-top: 50px; 
+}
+
+.topic {
+    text-align: center; 
+    margin-bottom: 100px;
+    margin-right:300px;
+    margin-top: -30px;
+}
+
+.topic h2 {
+    font-size: 24px; 
+    font-style: italic;
+    margin-bottom: 10px; 
+}
+
+.topic img {
+    width: 200px; 
+    height: auto;
+}
+.center_word h2{
+    font-size:80px;
+    color:rgb(196, 201, 255);
+    font-style: italic;
+    display:inline-block;
+    margin-bottom: 30px;
+}
+.cosmic-journey-title {
+    margin-bottom: 10px; 
+}
+.center_word img{
+    position: absolute;
+    top: 480px;
+   right :5px;
+    transform: translateY(-50%);
+    width:300px;
+}
+.center_word {
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 100px; 
+}
+.menu-container {
+    width: 100%; 
+    background-color:azure;
+    padding: 25px; 
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    border: 1px solid #000;
+    display:flex;
+}
+
+
+.menu-item {
+    margin-bottom: 10px;
+    position: relative;
+}
+.menu-item:last-child {
+    margin-right: 0;
+}
+.menu-item a {
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+}
+.menu-item::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -5px; 
+    transform: translateY(-50%);
+    height: 80%; 
+    width: 1px; 
+    background-color: #000;
+}
+.menu-item:last-child::after {
+    display: none;
+}
+#main_heading{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.detailed-section {
+    
+    margin-bottom: 10px;
+    
+    padding:35px;
+    width: 95%;
+    font-style: italic;
+    color: white;
+    top:400px;
+    font-size: 26px; 
+    position: relative;
+    margin-top: -100px;
+    overflow: hidden;
+    top:30px;
+    font-style: italic;
+}
+.detailed-section p {
+    line-height: 1.5; 
+    margin-bottom: 50px; 
+    padding:10px;
+}
+.exploration-images {
+    position: absolute; 
+    top: 0px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    text-align: center;
+    width: 100%; 
+}
+
+.exploration-images img {
+    width: 200px; 
+    height: auto; 
+    display: block; 
+    margin: 100px auto; 
+}
+#Planet {
+    margin-bottom: 50px; /* Ajoutez de l'espace en bas de la section "Planets and Celestial Bodies" */
+}
+#pkk {
+    position: absolute;
+    top: 90%; /* Pour la placer au milieu verticalement */
+    right: 5%; /* Pour la placer à 5% de la droite */
+    transform: translateY(-50%); /* Pour la centrer verticalement */
+    width: 500px; /* Largeur désirée */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+footer {
+    position: absolute;
+    bottom: 20px; /* Ajustez cette valeur selon vos besoins */
+    left: 0;
+    width: 100%;
+    text-align: center; /* Pour centrer le contenu horizontalement */
+}
+.content-container {
+    
+    align-items: center;
+}
+
+.content-container .text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.content-container .image {
+    display:flex;
+   
+    
+}
+.content-container .image img {
+    margin-right: 50px; /* Ajoute une marge à droite entre les images */
+    max-width: 40%;
+    height: auto;
+    width: 50%; /* Spécifier une largeur pour chaque image */
+}
+
+.content-container img {
+    max-width: 100%;
+    height: auto;
+}
+.detailed-section p {
+    line-height: 1.5;
+    margin-bottom: 50px;
+    padding: 10px;
+    color: white; /* changer la couleur du texte pour qu'il soit visible sur le fond noir */
+}
+#Phenomena {
+    background-color: #f0f0f0; /* Couleur de fond */
+    padding: 50px; /* Espacement intérieur */
+    top:120px;
+}
+
+/* Styling for the titles */
+#Phenomena h2 {
+    color: #333; /* Couleur du texte */
+    font-size: 33px; /* Taille de la police */
+    margin-bottom: 1px; /* Marge inférieure */
+}
+
+/* Styling for the paragraphs */
+#Phenomena p {
+    color: #666; /* Couleur du texte */
+    font-size: 20px; /* Taille de la police */
+    line-height: 1.4; /* Hauteur de ligne */
+    margin-bottom: 20px; /* Marge inférieure */
+}
+#image1 {
+    width: 200px;
+    height: auto;
+    border: 40px solid black;
+}
+#image2 {
+    width: 500px;
+    height: auto;
+    border: 2px solid red;
+}
+#image3{
+    width: 500px;
+    height: auto;
+    border: 2px solid red;
+}
+#image4{
+    width: 500px;
+    height: auto;
+    border: 2px solid red;
+}
+#image5{
+    width: 500px;
+    height: auto;
+    border: 2px solid red;
+}
+#image6{
+    width: 500px;
+    height: auto;
+    border:2px solide red;
+  }
+  .container {
+    position: relative; /* Conteneur relatif */
+}
+    .contact-form {
+        position: absolute; /* Utilisez position: fixed pour rendre le formulaire fixe dans la fenêtre du navigateur */
+        top: 20px; /* Ajustez la valeur top pour placer le formulaire où vous le souhaitez */
+        right: 20px; /* Ajustez la valeur right pour placer le formulaire où vous le souhaitez */
+        z-index: 9999; /* Assurez-vous que le formulaire a un z-index élevé pour être affiché au-dessus des autres éléments */
+    }
+    
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        margin: auto;
+    }
+    
+    .contact-form label {
+        margin-bottom: 2px;
+    }
+    
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 78px;
+    }
+    
+    .contact-form textarea {
+        resize: vertical;
+    }
+    
+
